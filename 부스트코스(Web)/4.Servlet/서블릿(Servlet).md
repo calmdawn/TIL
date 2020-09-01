@@ -23,5 +23,6 @@
 - Servlet 3.0 이상일 경우
     - web.xml 파일을 사용하지 않습니다.
     - 자바 어노테이션(annotation)을 사용해 등록합니다.
+        - 예) @WebServlet("URL주소")
 - Servlet 3.0 미만일 경우
     - web.xml 파일에 직접 등록하여 사용합니다.
