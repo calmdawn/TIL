@@ -42,3 +42,9 @@
     - service() 호출하여 브라우저의 요청을 처리합니다. 예) http요청[GET, POST, PUT, DELETE 등]
 - 4 WAS가 종료 또는 새롭게 갱신될 경우
     - destory() 호출하여 서블릿을 제거합니다.
+---
+- 정리 
+    - 서블릿을 처음 생성한 경우
+        - init() -> service() -> destroy
+    - 서블릿이 이미 생성되있던 경우
+        - service() -> destroy
