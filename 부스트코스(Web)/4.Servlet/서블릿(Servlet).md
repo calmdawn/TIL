@@ -6,7 +6,8 @@
 
 ### 자바 웹 어플리케이션의 구조
 
-- 자바 웹 어플리케이션의 기본구조는 다음과 같습니다.
+#### 자바 웹 어플리케이션의 기본구조는 다음과 같습니다.
+
 ![image](https://user-images.githubusercontent.com/46203866/91865811-bc8b5780-ecac-11ea-9ccd-998dab4e8dda.png)
 
 --- 
@@ -29,7 +30,7 @@
 
 ### Servlet Lifecycle
 
-- Servlet 생명주기는 다음과 같습니다.
+#### Servlet 생명주기는 다음과 같습니다.
 
 ![image](https://user-images.githubusercontent.com/46203866/91873520-13485f80-ecb4-11ea-871f-729d690e593d.png)
 
