@@ -1,0 +1,15 @@
+## WAS의 요청과 응답방식
+
+![image](https://user-images.githubusercontent.com/46203866/91887563-e56c1680-ecc5-11ea-9e43-84e11b1cf26f.png)
+
+
+## HttpServletRequest
+
+- 클라이언트가 서버에게 요청을 보낼때 생성하는 객체
+- 헤더정보, 파라미터, 쿠키, URI, URL등의 정보를 담아 서블릿에 전달합니다.
+- Body의 Strean을 읽어들이는 메소드를 가지고 있다.
+
+## HttpServletResponse
+
+- 서버가 요청을 보낸 클라이언트에게 응답을 보낼 떄 생성하는 객체
+- 서블릿은 content type, 응답코드, 응답메시지등을 httpServletResponse 객체에 담아 전송합니다.
