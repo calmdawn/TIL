@@ -26,3 +26,18 @@
         - 예) @WebServlet("URL주소")
 - Servlet 3.0 미만일 경우
     - web.xml 파일에 직접 등록하여 사용합니다.
+
+### Servlet Lifecycle
+
+- Servlet 생명주기는 다음과 같습니다.
+
+![image](https://user-images.githubusercontent.com/46203866/91873520-13485f80-ecb4-11ea-871f-729d690e593d.png)
+
+- 1 WAS는 서블릿 요청을 받으면 서블릿이 메모리에 있는지 확인합니다.
+- 2 메모리에 없는 경우
+    - 해당 서블릿 클래스를 호출하여 객체를 생상하고 메모리에 적재한다.
+    - init() 호출하여 서블릿을 초기화한다.
+- 3 메모리에 이미 존재하는 경우
+    - service() 호출하여 브라우저의 요청을 처리합니다. 예) http요청[GET, POST, PUT, DELETE 등]
+- 4 WAS가 종료 또는 새롭게 갱신될 경우
+    - destory() 호출하여 서블릿을 제거합니다.
