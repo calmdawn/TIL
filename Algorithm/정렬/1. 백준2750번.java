@@ -1,3 +1,5 @@
+// 직접구현의 
+
 import java.util.Scanner;
 
 public class Main {
@@ -33,5 +35,33 @@ public class Main {
 			System.out.println(n);
 		}
 
+	}
+}
+
+
+
+// 자바 내부 라이브러리 사용의 경우
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		int N = scan.nextInt();
+
+		int[] arrayNum = new int[N];
+				
+		for (int i = 0; i < N; i++) {
+			arrayNum[i] = scan.nextInt();
+		}
+
+		Arrays.sort(arrayNum);
+
+		for (int n : arrayNum) {
+			System.out.println(n);
+		}
+		
 	}
 }
