@@ -34,6 +34,12 @@ class Solution {
                     strTemp = strNumbers[j];
                     strNumbers[j] = strNumbers[i];
                     strNumbers[i] = strTemp;
+                }else if(copyNumbers[i] == copyNumbers[j]){
+                    if(strNumbers[i].length() < strNumbers[j].length()){
+                        strTemp = strNumbers[j];
+                        strNumbers[j] = strNumbers[i];
+                        strNumbers[i] = strTemp;
+                    }
                 }
             }
         }
