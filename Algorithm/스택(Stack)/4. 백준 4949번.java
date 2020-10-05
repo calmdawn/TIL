@@ -34,21 +34,24 @@ public class Main {
 
 			if (checkChar.equals("]")) {
 				stack.pop();
+				checkChar = stack.peek();
 				if (checkChar.equals("[")) {
-
+					stack.pop();
 				} else {
 					result = "NO";
 					break;
 				}
 			} else if (checkChar.equals(")")) {
+				stack.pop();
+				checkChar = stack.peek();
 				if (checkChar.equals("(")) {
-
+					stack.pop();
 				} else {
 					result = "NO";
 					break;
 				}
 			}
-
+			
 			result = "YES";
 
 		}
