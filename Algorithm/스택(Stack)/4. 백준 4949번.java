@@ -6,55 +6,41 @@ public class Main {
 
 		Scanner scan = new Scanner(System.in);
 
-		Stack<String> stack = new Stack<>();
+		String str = scan.nextLine();;
+		Stack<Character> stack = new Stack<>();
 
-		String str = "";
-		String oneChar = "";
+		while (!str.equals(".")) {
 
-		while (!(str = scan.nextLine()).equals(",")) {
+			for (int i = 0; i < str.length(); i++) { // 문자열 글자하나하나 확인
 
-			stack.clear();
-			
+				char chStr = str.charAt(i);
 
-			if (str.equals(".")) { // 입력의 종료조건인 . 이 들어온 경우
-				break;
-
-			}
-
-			for (int i = 0; i < str.length(); i++) { // 입력 종료조건이아닌 경우
-
-				oneChar = String.valueOf(str.charAt(i));
-
-				if (oneChar.equals("[")) {
-					stack.push(oneChar);
-				} else if (oneChar.equals("(")) { // [ 또는 ( 이면 스택에 추가
-					stack.push(oneChar);
-				} else if (oneChar.equals(")")) {
-					if (stack.empty()) {
-						stack.push(oneChar);
-						break;
-					} else if (stack.peek().equals("[")) {
-
+				if (chStr == '(' || chStr == '[') { // 왼쪽 괄호일경우 스택에 추가
+					stack.push(chStr);
+				} else if (chStr == ')') {
+					if (stack.empty() || stack.peek() == '[') {
+						stack.push(chStr);
 						break;
 					}
 					stack.pop();
-				} else if (oneChar.equals("]")) {
-					if (stack.empty()) {
-						stack.push(oneChar);
-						break;
-					} else if (stack.peek().equals("(")) {
-
+				} else if (chStr == ']') {
+					if (stack.empty() || stack.peek() == '(') {
+						stack.push(chStr);
 						break;
 					}
 					stack.pop();
 				}
+
 			}
 
-			if (!stack.empty()) { // 왼쪽 괄호만 있는 경우
-				System.out.println("NO");
+			if (stack.empty()) {
+				System.out.println("yes");
 			} else {
-				System.out.println("YES");
+				System.out.println("no");
 			}
+
+			stack.clear();
+			str = scan.nextLine();
 
 		}
 		scan.close();
