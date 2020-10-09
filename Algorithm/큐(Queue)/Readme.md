@@ -18,5 +18,9 @@
 - 백준 2164번
 
   ![2164번](https://user-images.githubusercontent.com/46203866/95608364-f6affc00-0a97-11eb-899c-2ea295d4da3d.PNG)  
-  
+
+- 백준 11866번
+
+  ![11866번](https://user-images.githubusercontent.com/46203866/95611865-62489800-0a9d-11eb-9fe9-33220bc75481.PNG)
+
 ### 오답
