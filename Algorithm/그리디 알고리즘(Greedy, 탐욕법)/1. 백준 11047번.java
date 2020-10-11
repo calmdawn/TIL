@@ -16,13 +16,13 @@ public class Main {
 		int K = Integer.parseInt(strNM[1]);					//	K원
 
 		int[] coinCost = new int[N];						//	동전의 가치가 저장되는 배열
-		int coinCount = 0;									//	필요한 동전 개수
+		int coinCount = 0;							//	필요한 동전 개수
 
 		for (int i = 0; i < coinCost.length; i++) {			// 오름차순으로 동전의 가치 저장
 			coinCost[i] = Integer.parseInt(br.readLine());
 		}
 
-		for (int j = coinCost.length - 1; j >= 0; j--) {	// 가장큰 동전의 가치부터 K원을 만든다.
+		for (int j = coinCost.length - 1; j >= 0; j--) {	// 가치가 큰 동전부터 K원을 만든다.
 
 			if (K >= coinCost[j]) {
 				K = K - coinCost[j];
