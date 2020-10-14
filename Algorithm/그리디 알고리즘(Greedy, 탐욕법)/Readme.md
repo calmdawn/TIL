@@ -7,7 +7,12 @@
   - 백준 11047번
 
   ![그리디_11047번](https://user-images.githubusercontent.com/46203866/95679569-a313ee80-0c0e-11eb-8c03-269cbd8c0612.PNG)
-
+ 
+ - 백준 1931번
+  
+  <img width="1150" alt="무제" src="https://user-images.githubusercontent.com/46203866/95993012-8b847200-0e69-11eb-8122-96c8c6486c8a.png">
+  
+  
   
 ### 오답
 
