@@ -29,6 +29,11 @@
    
   ![그리디_11399번](https://user-images.githubusercontent.com/46203866/96016800-28540900-0e84-11eb-8912-0fd538120be6.PNG)
   
+  - 백준 1541번
+  
+  ![그리디_1541번](https://user-images.githubusercontent.com/46203866/96271225-96750900-1007-11eb-9c05-3bd7bb68ad69.PNG)
+
+  
 ### 오답
 
 
