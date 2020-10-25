@@ -29,6 +29,15 @@
 
   ![11650](https://user-images.githubusercontent.com/46203866/97107079-eb500800-1708-11eb-8f4e-ce63facf85f7.PNG)
   
+- 백준 1181번
+
+  ![1181번](https://user-images.githubusercontent.com/46203866/97113790-f1a5aa80-172f-11eb-8895-4f7e383e114e.PNG)
+  
+  - 문제 : 
+  - 해결 : 
+  
 #### 못푼문제
 - 프로그래머스-정렬2번 가장 큰수.java
 
+#### 추가공부
+- compareTo 메소드, Comparable, Comparator 기능 및 구성
