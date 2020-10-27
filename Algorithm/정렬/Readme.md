@@ -36,6 +36,11 @@
   - 문제 : 
   - 해결 : 
   
+- 백준 10814번
+
+  <img width="1148" alt="10814번" src="https://user-images.githubusercontent.com/46203866/97305695-d1e1c400-18a0-11eb-912d-6a16221cfdb0.png">
+
+  
 #### 못푼문제
 - 프로그래머스-정렬2번 가장 큰수.java
 
