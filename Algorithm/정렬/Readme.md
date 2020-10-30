@@ -45,4 +45,6 @@
 - 프로그래머스-정렬2번 가장 큰수.java
 
 #### 추가공부
-- compareTo 메소드, Comparable, Comparator 기능 및 구성
+- compareTo 메소드
+- compareTo() 함수는 두개의 값을 비교하여 int 값으로 반환해주는 함수이다
+Comparable, Comparator 기능 및 구성
