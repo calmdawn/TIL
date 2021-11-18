@@ -8,7 +8,7 @@
 ## 1. 1 선언 및 사용방법
 
 ```java
-public Main{
+public class Main{
     public static void main(String[] args){
         int arr1[]; //
         int[] arr2; //  보편적으로 이렇게 많이 사용함
