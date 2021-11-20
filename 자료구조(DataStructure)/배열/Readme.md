@@ -4,12 +4,15 @@
 -   배열의 인덱스(index)는 0부터 시작하며 size - 1 까지 참조할 수 있음
 
 ---
-   
+
 ## 1. 1 선언 및 사용방법
 
 ```java
 public class Main{
     public static void main(String[] args){
+        char[] chars;
+        String[] strings;
+        double[] doubles;
         int arr1[]; //
         int[] arr2; //  보편적으로 이렇게 많이 사용함
 
