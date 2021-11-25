@@ -21,3 +21,9 @@ hashMap.containsKey("banana");  //key가 "banana"인 데이터 유무 확인. �
 ashMap.containsValue(7);    //value가 7인 데이터 유무 확인. 존재하면 true, 존재하지 않으면 false
 
 ~~~
+
+## 1. 2 연산에 따른 시간복잡도
+
+### 1. 2. 1 탐색, 추가, 삭제
+- 해시함수를 적용하여 key 값으로 데이터를 탐색하고 직접 index를 가져와 처리하는 방식. = O(1)
+- (hashing[해시함수]&nbsp;&nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;(n - 1)[배열길이]) 로 직접 가져옴.
